@@ -188,7 +188,7 @@ Menu
   margin-right: auto;
 }
 .btn-container {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   display: flex;
   justify-content: center;
 }
@@ -200,10 +200,11 @@ Menu
   margin: 0 0.5rem;
   letter-spacing: 1px;
   border-radius: var(--radius);
-  padding: 0.375rem 0.75rem;
+  padding: 0.475rem 0.75rem;
   color: var(--clr-white);
   cursor: pointer;
   transition: var(--transition);
+  margin: .4rem;
 }
 .filter-btn:hover {
   background: var(--clr-gold);
@@ -246,6 +247,9 @@ Menu
 }
 
 @media screen and (min-width: 768px) {
+ .btn-container{
+    grid-template-columns:  0.01fr .01fr .01fr .01fr .01fr;
+  }
   .menu-item {
     grid-template-columns: 225px 1fr;
     gap: 0 1.25rem;
