@@ -245,6 +245,9 @@ Menu
   padding-top: 1rem;
   color: darkgrey;
 }
+.btn-container {
+  display: grid;
+}
 
 @media screen and (min-width: 768px) {
  .btn-container{
